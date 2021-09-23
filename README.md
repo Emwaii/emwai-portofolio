@@ -11,7 +11,7 @@ I'm a newbee programmer with a little bit experience...
   
 ## Demo
 
-[Demo](https://emwaii.github.io/my-portofolio)
+[Demo](https://emwaii.github.io/emwai-portofolio)
   
 ## Authors
 
