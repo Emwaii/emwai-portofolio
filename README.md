@@ -1,7 +1,5 @@
 
-# Human Resource Information System
-
-System Human Resource PT. STAR Software Indonesia
+# Portofolio MY
 
 by. Muhammad Yulianto (Emwai)
 
@@ -13,7 +11,7 @@ I'm a newbee programmer with a little bit experience...
   
 ## Demo
 
-http://hris.rf.gd
+[Demo](https://emwaii.github.io/my-portofolio)
   
 ## Authors
 
@@ -23,14 +21,6 @@ http://hris.rf.gd
 ## Screenshots
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-  
-## Used By
-
-This project is used by the following companies:
-
-- PT. STAR Software Indonesia
-- PT. Kode Evolusi Bangsa
 
   
 ## Badges
