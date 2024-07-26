@@ -274,6 +274,7 @@ img{
 .home__img{
   width: 300px;
   justify-self: center;
+  margin-left: 2rem;
 }
 
 /*========== BUTTONS ==========*/
@@ -527,7 +528,7 @@ img{
   }
 
   .menu__container{
-    grid-template-columns: repeat(3, 210px);
+    grid-template-columns: repeat(3, 350px);
     column-gap: 4rem;
   }
   .menu__content{
