@@ -10,6 +10,7 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/rubahkode.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.5/viewer.min.css" />
 
         <title>MY | Portofolio</title>
     </head>
@@ -23,17 +24,17 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">MY</a>
+                <a href="" class="nav__logo">MY</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <!-- <li class="nav__item"><a href="#services" class="nav__link">Services</a></li> -->
-                        <li class="nav__item"><a href="#menu" class="nav__link">Project</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">My Work</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                        <li class="nav__item"><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
                 </div>
 
@@ -50,10 +51,10 @@
                     <div class="home__data">
                         <h1 class="home__title">Hello!</h1>
                         <h2 class="home__subtitle">I'm Muhammad Yulianto</h2>
-                        <h5 class="home__subtitlee">Fullstack Web Programmer</h5>
-                        <a href="#menu" class="button">See MY work</a>
+                        <h5 class="home__subtitlee">Web Developer and IT Support</h5>
+                        <a href="#menu" class="button">Let's see my portofolio</a>
                     </div>
-                    <img src="assets/img/asdf.png" alt="" class="home__img">
+                    <img src="assets/img/my_profile.png" alt="" class="home__img">
                 </div>
             </section>
             
@@ -64,103 +65,181 @@
                         <span class="section-subtitle about__initial">About MY</span>
                         <h2 class="section-title about__initial">Hi, I am Muhammad Yulianto</h2>
                         <p class="about__description">
-                            I am a full-stack web developer with a passion for creating dynamic and user-friendly web applications.
-                            I have a strong foundation in front-end technologies such as HTML, CSS, and JavaScript, as well as back-end languages like JavaScript family. 
-                            I am proficient in database management using SQL. I enjoy working on projects from start to finish and collaborating with cross-functional teams.
+                            Bachelor of Informatics graduate with a very satisfying predicate with more than 3 years of experience in the field of Web Developer and IT Support, is highly capable of completing the assigned tasks and is proficient in the maintenance of computer devices, as well as being able to demonstrate good analytical skills and learn new things quickly. Have some experience in the IT as reference to work in the position of IT Support or IT Staff and ready to contribute to your company.
                         </p>
                         <a href="#contact" class="button">Contact me</a>
                     </div>
 
-                    <img src="assets/img/hello.svg" alt="" class="about__img">
+                    <img src="assets/img/my_about.png" alt="" class="about__img">
                 </div>
             </section>
 
             <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
-                <span class="section-subtitle">Project</span>
-                <h2 class="section-title">My work</h2>
+                <span class="section-subtitle">Experience</span>
+                <h2 class="section-title">Web Developer</h2>
 
-                <div class="menu__container bd-grid">
+                <div class="menu__container bd-grid" id="images">
                     <div class="menu__content">
                         <img src="assets/img/dashboard.png" alt="" class="menu__img">
                         <h3 class="menu__name">Human Resource Information System</h3>
+                        <br>
                         <span class="menu__detail">System for management employee</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="#" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="#" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/portofolio.png" alt="" class="menu__img">
                         <h3 class="menu__name">Portofolio Muhammad Yulianto</h3>
+                        <br>
                         <span class="menu__detail">My version 1.0 Portofolio Website</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://emwaii.github.io/emwai-portofolio" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://emwaii.github.io/emwai-portofolio" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/dietin.png" alt="" class="menu__img">
                         <h3 class="menu__name">Portofolio Dietin Apps</h3>
+                        <br>
                         <span class="menu__detail">Portofolio website for mobile app Dietin</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://emwaii.github.io/dietin" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://emwaii.github.io/dietin" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
                     
                     <div class="menu__content">
                         <img src="assets/img/wedding.png" alt="" class="menu__img">
                         <h3 class="menu__name">Wedding Invitation</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Example website wedding invitation</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://emwaii.github.io/undangin" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://emwaii.github.io/undangin" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/undangan.png" alt="" class="menu__img">
                         <h3 class="menu__name">Wedding Invitation Firman & Adelia</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Example website wedding invitation</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://rubahkode.github.io/percobaan" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://rubahkode.github.io/percobaan" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/sriintanperkasa.png" alt="" class="menu__img">
                         <h3 class="menu__name">Official Website PT Sri Intan Perkasa</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Portofolio website PT Sri Intan Perkasa</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://sriintanperkasa.com" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://sriintanperkasa.com" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/sidicc.png" alt="" class="menu__img">
                         <h3 class="menu__name">SIDIC Information Management System</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Website for management all medical devices on Hospital or Clinic</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://konkepsidic.sriintanperkasa.com" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://konkepsidic.sriintanperkasa.com" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/sipartner.png" alt="" class="menu__img">
                         <h3 class="menu__name">SIPartner for Distributor</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Website for to be distributor of PT Sri Intan Perkasa</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://sipartner.sriintanperkasa.com" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://sipartner.sriintanperkasa.com" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
 
                     <div class="menu__content">
                         <img src="assets/img/internal.png" alt="" class="menu__img">
                         <h3 class="menu__name">Internal Website PT Sri Intan Perkasa</h3>
-                        <br><br>
+                        <br>
                         <span class="menu__detail">Website for management all division on PT Sri Intan Perkasa</span>
                         <span class="menu__preci">Emwai</span>
-                        <a href="https://internal.sriintanperkasa.com" class="button menu__button"><i class='bx bx-chevron-right'></i></a>
+                        <a href="https://internal.sriintanperkasa.com" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
+                    </div>
+
+                    <div class="menu__content ">
+                        <img src="assets/img/KAP-1.png" alt="" class="menu__img">
+                        <img src="assets/img/KAP-2.png" alt="" class="menu__img" hidden>
+                        <h3 class="menu__name">Company Profile KAP Ramli & Rekan</h3>
+                        <br>
+                        <span class="menu__detail">Offica website company profile KAP Ramli & Rekan</span>
+                        <span class="menu__preci">Emwai</span>
+                        <a href="https://emwaii.github.io/kaprr" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
+                    </div>
+
+                    <div class="menu__content ">
+                        <img src="assets/img/HAKKAMU-1.png" alt="" class="menu__img">
+                        <img src="assets/img/HAKKAMU-2.png" alt="" class="menu__img" hidden>
+                        <h3 class="menu__name">Company Profile HAKKAMU</h3>
+                        <br>
+                        <span class="menu__detail">Offica website company profile HAKKAMU legal consultant, etc</span>
+                        <span class="menu__preci">Emwai</span>
+                        <a href="https://emwaii.github.io/kaprr" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
+                    </div>
+
+                    <div class="menu__content ">
+                        <img src="assets/img/BOOK-1.png" alt="" class="menu__img">
+                        <!-- <img src="assets/img/HAKKAMU-2.png" alt="" class="menu__img" hidden> -->
+                        <h3 class="menu__name">Guestbook</h3>
+                        <br>
+                        <span class="menu__detail">Guestbook SIP for event</span>
+                        <span class="menu__preci">Emwai</span>
+                        <a href="https://internal.sriintanperkasa.com/guestbook" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
+                    </div>
+
+                    <div class="menu__content ">
+                        <img src="assets/img/GIS-1.png" alt="" class="menu__img">
+                        <!-- <img src="assets/img/HAKKAMU-2.png" alt="" class="menu__img" hidden> -->
+                        <h3 class="menu__name">Geographic Information System by MY</h3>
+                        <br>
+                        <span class="menu__detail">GIS with GMaps API for management location client we have</span>
+                        <span class="menu__preci">Emwai</span>
+                        <a href="#!" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a>
                     </div>
                 </div>
             </section>
 
+            <section class="menu section bd-container" id="exp">
+                <span class="section-subtitle">and more</span>
+                <h2 class="section-title">Experience</h2>
+
+                <div class="menu__container bd-grid" id="images_more">
+                    <div class="menu__content">
+                        <img src="assets/img/E-VOTING.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">The Field Technical Of E-Voting Pilkades in Sleman Regency in 2020</h3>
+                        <span class="menu__detail">Regional Government of Sleman Regency</span>
+                        <br>
+                        <span class="menu__preci">Jobdesk:</span>
+                        <span class="menu__detail">As an expert in the Sleman Regency Village Head election, monitoring the devices used during e-voting so that they can be used properly and disruptively during e-voting and providing learning about the tools used to field officers.</span>
+                        <!-- <a href="#" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a> -->
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/PRODUCT-SPECIALIST.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Product Knowledge Medical Equipment in Hospital Expo Jakarta 2024</h3>
+                        <span class="menu__detail">Jakarta</span>
+                        <br>
+                        <span class="menu__preci">Jobdesk:</span>
+                        <span class="menu__detail">Being a promoter as well as product knowledge at the annual HOSPITAL EXPO event, such as answering visitors' questions about the products we have, offering visitors' needs related to medical devices and radiology services.</span>
+                        <!-- <a href="#" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a> -->
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/SPEAKER-PACS.jpg" alt="" class="menu__img">
+                        <h3 class="menu__name">Speaker about PACS</h3>
+                        <span class="menu__detail">Cirebon, West Java</span>
+                        <br>
+                        <span class="menu__preci">Jobdesk:</span>
+                        <span class="menu__detail">Being a speaker explaining about PACS (Picturing Archiving Communication System) to make it easier to read x-ray images and manage x-ray images at the Cirebon Radiographer Branch Deliberation event.</span>
+                        <!-- <a href="#" class="button menu__button">Let's See<i class='bx bx-chevron-right'></i></a> -->
+                    </div>
+                </div>
+                
+            </section>
             <!--========== CONTACT US ==========-->
             <section class="contact section bd-container" id="contact">
                 <div class="contact__container bd-grid">
@@ -194,8 +273,8 @@
                 <div class="footer__content">
                     <h3 class="footer__title">Services</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Wedding Invitation</a></li>
-                        <li><a href="#" class="footer__link">Website</a></li>
+                        <li><a href="#!" class="footer__link">Wedding Invitation</a></li>
+                        <li><a href="#!" class="footer__link">Website Company Profile</a></li>
                         
                     </ul>
                 </div>
@@ -203,7 +282,7 @@
                 <div class="footer__content">
                     <h3 class="footer__title">Information</h3>
                     <ul>
-                        <li><a href="#contact" class="footer__link">Contact me</a></li>
+                        <li><a href="mailto:sayaemwai@gmail.com" class="footer__link">Contact me</a></li>
                     </ul>
                 </div>
 
@@ -217,7 +296,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2024 Emwai Portofolio version 1.0 . All right reserved</p>
+            <p class="footer__copy">&#169; 2025 Emwai Portofolio version 1.5 . All right reserved</p>
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
@@ -227,6 +306,25 @@
         <script src="assets/js/main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.5/viewer.min.js"></script>
+
+        <script>
+            var gallery = document.getElementById('images');
+            var viewer = new Viewer(gallery, {
+                inline: false,
+                navbar: true,
+                toolbar: false,
+                title: false
+            });
+
+            var gallery2 = document.getElementById('images_more');
+            var viewer2 = new Viewer(gallery2, {
+                inline: false,
+                navbar: true,
+                toolbar: false,
+                title: false
+            });
+        </script>
             <!-- <script>
                VANTA.NET({
               el: "#home",
